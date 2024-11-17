@@ -3,6 +3,9 @@
 ## Overview
 **robo17** is an advanced, Python-driven voice assistant designed to make your life easier. Combining speech recognition, generative AI, and automation tools, it performs tasks such as web browsing, answering questions, and solving complex mathematical queries. The project includes a complete web interface for enhanced user interaction and multimedia support.
 
+![image](https://github.com/user-attachments/assets/4f7e38eb-69b9-400e-af56-ff560c234074)
+
+
 ## Features
 - **Voice Recognition**: Uses `speech_recognition` and `pyttsx3` for seamless interaction.
 - **Generative AI Integration**: Powered by Google’s generative AI for intelligent query responses.
@@ -54,14 +57,11 @@
   - Setting timers
   - Performing web searches and mathematical queries
 
-## License
-This project is licensed under the MIT License. See `LICENSE` for more information.
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss your ideas.
 
 ## Contact
-For questions or suggestions, reach out at [your-email@example.com].
+For questions or suggestions, reach out at [meharshal1703@gmail.com].
 
 ---
 Bring the power of voice and AI to your daily tasks with **robo17**. Let's make technology more interactive!
