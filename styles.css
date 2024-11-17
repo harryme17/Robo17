@@ -1,0 +1,22 @@
+.chat-container {
+    margin-top: 50px;
+  }
+  
+  .chat-card {
+    margin-bottom: 20px;
+    overflow-y: auto;
+    max-height: 800px;
+  }
+  
+  .user-message {
+    color: rgba(255, 208, 22, 0.889);
+  }
+  
+  .ai-find-message {
+    color: rgb(34, 217, 221);
+  }
+  
+  .other-message {
+    color: rgb(255, 255, 255);
+  }
+

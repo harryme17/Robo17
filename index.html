@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROBO 17 UI</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      /* overflow: hidden; */
+    }
+
+    video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+      opacity: 0.2;
+    }
+
+    .chat-card2 {
+      opacity: 0.8;
+      /* Adjust the opacity as needed */
+    }
+
+    .chat-card {
+      opacity: 0.8;
+      /* Adjust the opacity as needed */
+    }
+  </style>
+
+</head>
+
+<body style="background-color: #662a2a;">
+  <video autoplay loop muted>
+    <source src="video25.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <!-- <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Chat App</a>
+    </div>
+  </nav> -->
+
+  <div class="container-fluid chat-container">
+
+    <div class="row">
+      <div class="col-md-6 offset-md-3 mt-5">
+        <div class="card chat-card2 p-4 fixed" style="background-color: #c1b9b0;">
+          <h4 style="color: #530404;">ALL CHATS WILL APPEAR HERE ⬇️
+            <button class="btn btn-outline-danger btn-sm" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              All Commands
+            </button>
+
+            </h1>
+
+        </div> <br>
+        <div class="card chat-card2 p-4 fixed collapse" id="collapseExample">
+          <h5>USE THESE VOICE ACTIVATED COMMANDS; DONT FORGET TO SAY  <h3 style="color: red;">'Harry'</h1></h5>
+          <p>Wikipedia search<br>
+            Open YouTube and search for something<br>
+            Open Google<br>
+            Open Stack Overflow<br>
+            Play music<br>
+            Check the time<br>
+            Open VS Code<br>  
+            Open the camera<br>
+            Close the camera<br>
+            Show recent apps<br>
+            Switch tabs<br>
+            Operate the mouse<br>
+            Hit enter<br>
+            Press the right arrow key<br>
+            Press the left arrow key<br>
+            Find this<br>
+            Set a timer for a specific duration<br>
+            Exit the program<br>
+            </p>
+        </div> <br>
+        <div class="card chat-card p-4" id="chat-log" style="background-color: #593f3f;">
+          <!-- Chat log will be dynamically added here -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer py-4 sticky-bottom text-center">
+      <div class="container">
+        <span class=" " style="color: #b19c9c;">Made by &copy; harryme.17</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
